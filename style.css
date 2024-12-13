@@ -179,4 +179,32 @@ color: #3E588B ;
 .about-music-text{
 color:#8A8096 ;
 }
-
+.Contact-us{
+min-height: 600px;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+  }
+.about-us{
+background-color: #3E588B;
+color: white;
+max-width: 1200px;
+justify-content: center;
+}
+.Contact-us .about-us a{
+    color: white;
+}
+.Contact-us .about-us button{
+    border-color: white;
+    color: white;
+}
+.contact-image img{
+    border-radius: 50%;
+}
+.circle {
+    width: 228px;
+    height: 228px;
+    border-radius: 50%;
+    background-color: #C0CFEC;
+}
