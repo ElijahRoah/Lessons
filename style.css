@@ -1,0 +1,182 @@
+body
+{
+margin: 0px;
+}
+
+.menu {
+height: 40px;
+display: flex;
+justify-content: space-around;
+}
+
+#logo{
+padding-top: 10px;
+}
+
+ul {
+display: flex;
+}
+
+li{
+margin: 0 10px;
+list-style: none;
+}
+a{
+color: black;
+}
+
+a:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+ 
+.nav-link {
+background-color: #3E588B;
+font-family:Georgia, 'Times New Roman', Times, serif;
+border: solid 1px black;
+color: #EFF3FA;
+border-radius: 5px 5px 5px 5px;
+padding: 3px 3px 3px 3px;
+
+}
+
+.wallpaper {
+background-color:#F9FBFA;
+display: flex;
+justify-content: center;
+}
+.wallpaper-image{
+display: flex;
+justify-content: center;
+width: 50%;
+}        
+
+img{
+height: 700px;
+}
+
+.wallpaper-content {
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+
+.wallpaper-content div {
+width: 200px;
+height: 100px;
+border: solid 1px #3E588B;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+color: #F9FBFA;
+background-color: #3E588B;
+text-transform:uppercase;
+text-align: center;
+letter-spacing: .2rem;
+}
+
+h1{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 44px;
+color: #3E588B;
+text-transform:uppercase;  
+}
+
+button{
+width: 25%;
+height: 50px;
+background-color: transparent;
+text-transform:uppercase;
+border: solid 1px #3E588B;
+font-weight: bold;
+letter-spacing: .2rem;
+transition: 0.1s;
+}
+
+button:hover {
+background-color: #3E588B;
+color:white;
+cursor: pointer;
+}
+
+.main-description{
+min-height: 600px;
+background-color: #3E588B;
+}
+
+.description{
+display: flex;
+justify-content: center;
+padding-top: 100px;
+}
+
+.description-item{
+width: 200px;
+color: #F9FBFA;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first, .third{
+padding: 30px 20px;
+}
+
+.second,.fourth{
+padding: 160px 20px 26px;
+}
+
+.description-item-title{
+text-transform: uppercase;
+}
+
+.description-item-text{
+letter-spacing: 1px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.music-education{
+min-height: 600px;
+background-color: #EFF3FA;
+}
+
+.music-education-title{
+text-align: center;
+margin: 0px;
+padding: 20px;
+}
+
+.music-education-text{
+text-align: center;
+width: 820px;
+font-family:'Open Sans',sans-serif;
+margin:0 auto;
+}
+.description-item-icon{
+    background-color: #C0CFEC;
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+}
+.about-music{
+display: flex;
+justify-content: center;
+}
+
+.music-education-description{
+width: 200px;
+padding-top: 50px;
+margin: 0 40px 0 40px;
+}
+.about-music-icon{
+    width: 41px;
+    height: 8px;
+    background-color: #C0CFEC;
+}
+
+.about-music-title{
+text-transform: uppercase;
+color: #3E588B ; 
+}
+
+.about-music-text{
+color:#8A8096 ;
+}
+
