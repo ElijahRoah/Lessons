@@ -181,30 +181,63 @@ color:#8A8096 ;
 }
 .Contact-us{
 min-height: 600px;
+margin: 60px 0 0 0;
 }
-.overlay{
-    display: flex;
-    flex-direction: column;
-  }
+.container{
+height: 400px;
+width: 900px;
+margin: 0px auto;
+}
 .about-us{
+max-width: 100%;
+width: 489px;
+height: 310px;
 background-color: #3E588B;
 color: white;
-max-width: 1200px;
+display: flex;
+flex-direction: column;
+padding: 30px 30px 30px 370px;
 justify-content: center;
+}
+.about-us h2{
+font-family: "Roboto Condensed", sans-serif;
+font-size: 60px;
+margin: 0px;
+text-align: left;
+width: 390px;
+}
+.about-us p{
+width: 390px;
 }
 .Contact-us .about-us a{
     color: white;
 }
 .Contact-us .about-us button{
-    border-color: white;
-    color: white;
+border-color: white;
+width: 50%;
+color: white;
+}
+.contact-image{
+display: flex;
+justify-content: center;
+position: relative;
+left: -350px;
+bottom: 300px;
 }
 .contact-image img{
     border-radius: 50%;
+    width: 507px;
+    height: 507px;
+}
+.circle-center{
+display: flex;
+justify-content: center;
 }
 .circle {
-    width: 228px;
-    height: 228px;
-    border-radius: 50%;
-    background-color: #C0CFEC;
+position: relative;
+bottom: 400px;: ;
+width: 228px;
+height: 228px;
+border-radius: 50%;
+background-color: #C0CFEC;
 }
