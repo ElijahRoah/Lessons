@@ -7,14 +7,20 @@ margin: 0px;
 height: 40px;
 display: flex;
 justify-content: space-around;
+width: 600px;
+margin: 0px auto;
 }
 
 #logo{
 padding-top: 10px;
+position: relative;
+left: -280px;
 }
 
 ul {
 display: flex;
+position: relative;
+right: -210px;
 }
 
 li{
@@ -44,6 +50,7 @@ padding: 3px 3px 3px 3px;
 background-color:#F9FBFA;
 display: flex;
 justify-content: center;
+margin: 10px;
 }
 .wallpaper-image{
 display: flex;
@@ -85,7 +92,7 @@ text-transform:uppercase;
 }
 
 button{
-width: 25%;
+width: 300px;
 height: 50px;
 background-color: transparent;
 text-transform:uppercase;
@@ -153,10 +160,10 @@ font-family:'Open Sans',sans-serif;
 margin:0 auto;
 }
 .description-item-icon{
-    background-color: #C0CFEC;
-    width: 60px;
-    height: 60px;
-    border-radius: 45px;
+background-color: #C0CFEC;
+width: 60px;
+height: 60px;
+border-radius: 45px;
 }
 .about-music{
 display: flex;
@@ -183,8 +190,11 @@ color: #3E588B ;
 color:#8A8096 ;
 }
 .Contact-us{
-min-height: 600px;
+min-height: 800px;
 margin: 60px 0 0 0;
+}
+.overlay{
+height: 500px;
 }
 .container{
 height: 400px;
@@ -232,15 +242,39 @@ bottom: 300px;
     width: 507px;
     height: 507px;
 }
-.circle-center{
-display: flex;
-justify-content: center;
-}
 .circle {
+margin: 0px auto;
 position: relative;
-bottom: 400px;
+left: 40px;
+bottom: 450px;
 width: 228px;
 height: 228px;
 border-radius: 50%;
 background-color: #C0CFEC;
+}
+.photos{
+height: 1000px;
+background-color: #EFF3FA;
+}
+.photos-back{
+background-color: #3E588B;
+height: 800px;
+width: 50%;
+margin: 0 0 0 auto;
+}
+.people{
+height: 551px;
+width: 935px;
+}
+.photos-center{
+display: flex;
+justify-content: center;
+position: relative;
+top: -790px;
+left: -70px;
+}
+@media(max-width:420px) {
+.description{
+flex-direction:column;
+}   
 }
